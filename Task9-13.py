@@ -30,7 +30,6 @@ class PersonDays(Person):
     @strong_decorator
     def get_full_name(self):
         return super().get_full_name() # Возьмем функцию юзера из базового класса и передадим ее в декоратор
-
 person = Person("Бобрышев", "Роман1", 2002)
 print(person.get_age())  # Возраст в годах
 
